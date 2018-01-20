@@ -1,0 +1,18 @@
+ cd /etc/apt/
+
+sudo gedit apt.conf
+
+Acquire::http::proxy "http://2014vvchillal:Airforce&777@196.1.114.80:2222/";
+Acquire::https::proxy "https://2014vvchillal:Airforce&777@196.1.114.80:2222/";
+Acquire::ftp::proxy "ftp://2014vvchillal:Airforce&777@196.1.114.80:2222/";
+Acquire::socks::proxy "socks://2014vvchillal:Airforce&777@196.1.114.80:2222/";
+
+ sudo apt-get update
+ sudo apt-get upgrade
+ 
+ sudo apt-get install chromium-browser
+ 
+  sudo apt-get install vim
+
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
